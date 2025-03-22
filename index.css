@@ -1,0 +1,147 @@
+*{
+    font-family: "Roboto";
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar, #homepage{
+    background-color: #1F2937;
+    color:white;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+a:hover{
+    color:grey;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0px;
+}
+
+#homepage{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 250px;
+    padding-bottom: 50px;
+}
+
+#text h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 30px 0px;
+}
+
+#text p, a{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+#text > a > button{
+    background-color: #3882f6;
+    color:white;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 8px;
+    border: 1px solid #3882f6;
+    border-radius: 5px;
+    margin: 30px 0px;
+}
+
+#navbar img{
+    width:100px;
+}
+
+#homepage img{
+    margin: 50px 0px;
+}
+
+#random{
+    padding: 50px 250px;
+}
+
+#random h1{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#random #img-div{
+    display: flex;
+    text-align: center;
+}
+
+.image{
+    color: rgba(0, 0, 0, 0.768);
+    margin: auto;
+    padding-bottom: 50px;;
+}
+
+.image img{
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+#quote{
+    background-color: #e5e7eb;
+    padding: 150px 250px;
+}
+
+#quote p{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    margin-bottom: 30px;
+}
+
+#quote h2{
+    margin-left: 800px;
+}
+
+#fandom{
+    padding: 100px 250px;
+}
+
+#blue-box{
+    padding: 50px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+}
+
+#inside-box h2{
+    color: white;
+    margin-bottom: 10px;
+}
+
+#inside-box p{
+    color: #e5e7eb;
+}
+
+#blue-box > a > button{
+    color:white;
+    padding: 5px 40px;
+    margin: 20px 40px;
+    border: 3px solid white;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #3882f6;
+}
+
+#footer{
+    padding: 50px;
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+}
